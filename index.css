@@ -1,0 +1,89 @@
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 50px;
+    background-color: #1B244A;
+    width: 600px;
+    height: 400px;
+    margin:auto;
+}
+
+.innercontainer {
+    width: 250px;
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.scorecontainer {
+    background-color:black ;
+    border-radius: 5px;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    width: 200px;
+
+}
+
+.middleContainer {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 30px;
+}
+
+
+
+h3 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+p {
+    font-size:80px;
+    font-family: 'Cursed Timer ULiL', sans-serif;                                 
+    color:#F94F6D
+}
+
+
+
+.scoreButton {
+    background-color: transparent;
+    font-family: 'Cursed Timer ULiL', sans-serif; 
+    font-size: 18;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+
+    border-color: #9AABD8;
+    color: #9AABD8
+    
+}
+
+
+.resetButton {
+    background-color: black;
+    font-family: 'Cursed Timer ULiL', sans-serif; 
+    font-size: 18;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+
+    border-color: #9AABD8;
+    color: #FFFF
+    
+}

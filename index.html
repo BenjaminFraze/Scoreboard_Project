@@ -8,23 +8,26 @@
             <div class="innerContainer">
                 <h3>HOME</h3>
                 <div class="scoreContainer">
-                <p class="homeScore">0</p>
+                <p class="homeScore" id="homeScore">0</p>
                 </div>
                 <div class="buttonContainer">
-                    <button class="scoreButton">+1</button>
-                    <button class="scoreButton">+2</button>
-                    <button class="scoreButton">+3</button>
+                    <button class="scoreButton" onclick="addOneHome()">+1</button>
+                    <button class="scoreButton" onclick="addTwoHome()">+2</button>
+                    <button class="scoreButton" onclick="addThreeHome()">+3</button>
                 </div>    
+            </div>
+            <div class="middleContainer">
+                <button class="resetButton" onclick="resetScore()">Reset</button>
             </div>
             <div class="innerContainer">
                 <h3>GUEST</h3>
                 <div class="scoreContainer">
-                <p class="guestScore">0</p>
+                <p class="guestScore" id="guestScore">0</p>
                 </div>
                 <div class="buttonContainer">
-                    <button class="scoreButton">+1</button>
-                    <button class="scoreButton">+2</button>
-                    <button class="scoreButton">+3</button>
+                    <button class="scoreButton" onclick="addOneGuest()">+1</button>
+                    <button class="scoreButton" onclick="addTwoGuest()">+2</button>
+                    <button class="scoreButton" onclick="addThreeGuest()">+3</button>
                 </div>    
             </div>
         </div>
